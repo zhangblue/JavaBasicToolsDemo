@@ -70,7 +70,7 @@ public class MailUtils {
      * @param strText 邮件内容
      * @return
      */
-    public boolean sendSimpleTextEmail(Iterable<String> itRecipient,Iterable[] ccRecipient, String strSubject, String strText) {
+    public boolean sendSimpleTextEmail(Iterable<String> itRecipient, Iterable[] ccRecipient, String strSubject, String strText) {
         Properties props = new Properties();
         props.setProperty("mail.smtp.auth", "true");
         props.put("mail.smtp.host", strMailSmtpHost);
