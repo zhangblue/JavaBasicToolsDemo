@@ -7,5 +7,6 @@ public class TestZip
 		ZipUtil zipUtil = new ZipUtil();
 		String name = zipUtil.zip("/Users/zhangdi/test_fold/Log_Dpi.txt", "/Users/zhangdi/test_fold/", "123456");
 		System.out.println(name);
+
 	}
 }
